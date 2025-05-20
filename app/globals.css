@@ -3,16 +3,23 @@
 @import "tailwindcss";
 
 body {
+  list-style: none;
   font-family: Poppins;
 }
 
 .sideleft {
-  background-color: rgb(16, 44, 77);
-  
+  background-color: rgb(19, 40, 66);
+
   a {
-    font-weight: 500;
-    font-size: 1rem;
-    color: #ffffff;
-    padding: .7rem 1rem;
+    color: #acabab;
+    padding: 0.7rem 1rem;
+    text-decoration: none;
+    text-align: center;
   }
+}
+
+.icons {
+  font-weight: 500;
+
+  font-size: 1.3rem;
 }
