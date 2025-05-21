@@ -1,0 +1,16 @@
+.icon {
+  font-size: 1.2rem;
+}
+
+.sidbare li{
+  padding: 1rem;
+}
+
+
+
+.sidbare li a{
+  display: flex;
+  gap: .5rem;
+  align-items: center;
+  color: rgb(255, 255, 255);
+}
