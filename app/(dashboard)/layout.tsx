@@ -1,6 +1,5 @@
-import styles from "@/styles/Sidebar.module.css";
-
 import Sidebar from "../components/Sidebar";
+import Header from "../components/Header";
 
 export default function DashLayout({
   children,
@@ -13,6 +12,7 @@ export default function DashLayout({
         <Sidebar/>
       </section>
       <section className="w-[96vw] bg-gray-300">
+        <Header/>
         {children}
        </section>
     </main>

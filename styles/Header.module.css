@@ -1,0 +1,48 @@
+.header {
+  box-shadow: 0 0 7px rgb(124, 124, 124);
+  padding: .44rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.search{
+  border: 1px solid rgb(129, 129, 129);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 3px;
+  width: 100vw;
+  max-width: 19vw;
+  padding: .16rem .4rem;
+}
+
+.search input{
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+.avatar{
+  background: #011b4d;
+  padding: .3rem;
+  color: rgb(255, 255, 255);
+  font-size: 1.4rem;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.notife{
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.searchs{
+  font-size: 1.4rem;
+  cursor: pointer;
+}
