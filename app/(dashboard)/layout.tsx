@@ -12,7 +12,7 @@ export default function DashLayout({
       <section className="w-[4vw]">
         <Sidebar/>
       </section>
-      <section className="w-[96vw] bg-blue-300">
+      <section className="w-[96vw] bg-gray-300">
         {children}
        </section>
     </main>

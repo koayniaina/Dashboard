@@ -12,12 +12,16 @@ import {
 } from "react-icons/md";
 import styles from "@/styles/Sidebar.module.css";
 import { SiGoogleclassroom } from "react-icons/si";
+import { PiStudentFill } from "react-icons/pi";
 
 export default function Sidebar() {
   return (
     <div>
       <div className={styles.sidbare}>
-        
+        <h1>
+          <PiStudentFill />
+        </h1>
+
         <li>
           <Link href="/" className="tooltip-right" data-tip="dashboard">
             <span className={styles.icon}>
