@@ -1,5 +1,6 @@
-import Header from "@/components/Header";
 import styles from "@/styles/Sidebar.module.css";
+
+import Sidebar from "../components/Sidebar";
 
 export default function DashLayout({
   children,
@@ -7,13 +8,13 @@ export default function DashLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <div className="h-screen w-full  ">
-      <div className={styles.asidebar}>
-        <main className="shadow-md"> 
-          <Header />
-        </main>
+    <main className="h-screen flex max-w-full">
+      <section className="w-[4vw]">
+        <Sidebar/>
+      </section>
+      <section className="w-[96vw] bg-blue-300">
         {children}
-      </div>
-    </div>
+       </section>
+    </main>
   );
 }

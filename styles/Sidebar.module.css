@@ -1,16 +1,21 @@
-.icon {
-  font-size: 1.2rem;
+.sidbare{
+  position:fixed;
+  background: #e6e6e6;
+  height: 100vh;
+  z-index: 1;
+  width: 100vw;
+  max-width: 4vw;
+  transition: .5s;
 }
 
-.sidbare li{
-  padding: 1rem;
+.sidbare:hover{
+  max-width: 12vw;
 }
-
-
 
 .sidbare li a{
   display: flex;
-  gap: .5rem;
   align-items: center;
-  color: rgb(255, 255, 255);
+  gap: .7rem;
+  margin: 1.2rem .8rem;
+  overflow: hidden;
 }
