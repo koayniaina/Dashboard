@@ -70,7 +70,7 @@ const data = [
     teacher: 190,
   },
   {
-    name: "Dec",
+    name: "dec",
     student: 90,
     teacher: 800,
   },
@@ -78,9 +78,9 @@ const data = [
 
 export default function MyArea() {
   return (
-    <ResponsiveContainer width="100%" height={300}>
+    <ResponsiveContainer width="100%" height={260}>
       <AreaChart data={data}>
-        <CartesianGrid strokeDasharray="3 3" />
+        <CartesianGrid strokeDasharray="1 1" />
         <XAxis dataKey="name" />
         <YAxis />
         <Tooltip />

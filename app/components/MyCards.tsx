@@ -8,7 +8,7 @@ import { GrMoney } from "react-icons/gr";
 export default function MyCards() {
   return (
     <main>
-      <section className={styles.grid}>
+      <section className={styles.grids}>
         <div className={styles.card}>
           <aside>
             <span>Student</span>

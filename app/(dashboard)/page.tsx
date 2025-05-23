@@ -2,7 +2,7 @@ import React from "react";
 import styles from "@/styles/Home.module.css";
 import MyCards from "../components/MyCards";
 import MyArea from "../components/rechart/MyArea";
-// import MyPies from "../components/rechart/MyPies";
+
 
 export default function Home() {
   return (
@@ -14,8 +14,7 @@ export default function Home() {
           </div>
         </aside>
       </section>
-      <section>
-        <MyCards />
+      <section className={styles.mycards}>
         <aside className={styles.bare}>
           <div className={styles.bareTitle}>
             <h2>All Exam Result</h2>
@@ -23,7 +22,13 @@ export default function Home() {
           </div>
           <MyArea />
         </aside>
-          {/* <MyPies/> */}
+        <aside className={styles.grid }>
+          <div>
+           <MyCards />
+          
+          </div>
+          
+        </aside>
       </section>
     </main>
   );
