@@ -9,12 +9,12 @@ export default function DashLayout({
   return (
     <main className="h-screen flex max-w-full">
       <section className="w-[4vw]">
-        <Sidebar/>
+        <Sidebar />
       </section>
-      <section className="w-[96vw] bg-gray-300">
-        <Header/>
+      <section className="w-[96vw]">
+        <Header />
         {children}
-       </section>
+      </section>
     </main>
   );
 }
