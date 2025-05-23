@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "@/styles/Home.module.css";
-import MyCards from "../components/MyCards";
+
 import MyArea from "../components/rechart/MyArea";
-import MyPies from "../components/rechart/MyPies";
+import MyCards from "../components/home/MyCards";
 
 export default function Home() {
   return (
