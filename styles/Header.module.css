@@ -2,6 +2,7 @@
   box-shadow: 0 0 7px rgb(124, 124, 124);
   padding: .44rem;
   display: flex;
+  background-color: #ffffff;
   position: sticky;
   top: 0;
   z-index: 1;

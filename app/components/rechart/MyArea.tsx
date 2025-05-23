@@ -80,7 +80,7 @@ export default function MyArea() {
   return (
     <ResponsiveContainer width="100%" height={260}>
       <AreaChart data={data}>
-        <CartesianGrid strokeDasharray="1 1" />
+        <CartesianGrid strokeDasharray="3 3" />
         <XAxis dataKey="name" />
         <YAxis />
         <Tooltip />

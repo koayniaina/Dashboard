@@ -21,7 +21,7 @@
 
 .grids{
   display: grid;
-  width: 100%;
+  width: 100vw;
   grid-template-columns: repeat(auto-fit , minmax(220px , 1fr));
   max-width: 36rem;
   gap: .5rem;
@@ -31,7 +31,7 @@
 .card {
   background-color: rgb(255, 255, 255);
   border-radius: 3px;
-  padding: 0.4rem;
+  padding: 0.4rem 1rem;
   display: flex;
   width: 100vw;
   max-width: 280px;
@@ -42,7 +42,8 @@
 }
 
 .icon {
-  font-size: 1.6rem;
+  color: #727272;
+  font-size: 1.8rem;
 }
 
 
@@ -63,5 +64,11 @@
 .text{
   font-size: .9rem;
   color: rgb(167, 167, 167);
-  margin: .4rem 0 .4rem;
+  margin: .1rem 0 ;
+}
+
+.deals{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
 }
